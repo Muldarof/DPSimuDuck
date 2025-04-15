@@ -1,4 +1,4 @@
-import FlyBehavior.FlyBehavior;
+package FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     @Override
