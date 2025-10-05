@@ -10,5 +10,9 @@ public class MiniDuckSimulator {
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();
+
+        Turkey turkey = new WildTurkey();
+        iDuck turkeyAdapter = new TurkeyAdapter(turkey);
+
     }
 }
